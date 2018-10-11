@@ -27,8 +27,8 @@ Requirements
 ============
 
 You should have built and installed the Bayeux library before building
-BxTour. Particularly, Linuxbrew and  the ``bxquery`` program should be
-available on your system:
+BxTour. Particularly, Linuxbrew's ``brew`` and  Bayeux's ``bxquery``
+programs should be available on your system:
 
 .. code:: bash
 
