@@ -44,7 +44,9 @@ List of programs
 ================
 
 * ``bxtour000.cxx`` : print Bayeux version and configuration.
-* ``bxtour001.cxx`` : class ``datatools::integer\_range``.
+* ``bxtour001.cxx`` : use the class ``datatools::integer\_range``.
+* ``bxtour002.cxx`` : use the class ``datatools::real\_range``.
+* ``bxtour003.cxx`` : use tools from the namespace ``datatools::units``.
 
 
 .. end
