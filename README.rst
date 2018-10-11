@@ -49,8 +49,8 @@ Installing BxTour
    $ cmake -GNinja \
            -DCMAKE_INSTALL_PREFIX=<where you want to install> \
 	   -DCMAKE_PREFIX_PATH=<path to your Linuxbrew install> \
-	   -DBayeux_DIR=${bayeux_cmake_dir} \
-   ..
+	   -DBayeux_DIR=$(bxquery --cmakedir} \
+	  ..
    $ ninja -j
    $ ninja install
 ..
