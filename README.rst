@@ -27,7 +27,7 @@ Requirements
 ============
 
 You should have built and installed the Bayeux library before building
-BxTour. Particularly, Linuxbrew's ``brew`` and  Bayeux's ``bxquery``
+BxTour. Particularly the Linuxbrew's ``brew`` and  Bayeux's ``bxquery``
 programs should be available on your system:
 
 .. code:: bash
@@ -46,13 +46,12 @@ Installing BxTour
    $ cd {BxTour source directory}
    $ mkdir BxTour-build
    $ cd BxTour-build/
-   $ cmake -GNinja \
-           -DCMAKE_INSTALL_PREFIX=<where you want to install> \
+   $ cmake -DCMAKE_INSTALL_PREFIX=<where you want to install> \
 	   -DCMAKE_PREFIX_PATH=$(brew --prefix) \
 	   -DBayeux_DIR=$(bxquery --cmakedir} \
 	  ..
-   $ ninja -j
-   $ ninja install
+   $ make -j
+   $ make install
 ..
 
 
